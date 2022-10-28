@@ -1,0 +1,52 @@
+.conteudologin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+
+}
+.conteudoform{
+    display: flex;
+    flex-direction: column;
+    border: unset;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8547AA;
+    margin-right: 35px;
+}
+.conteudoform input{
+    outline: unset;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border-color: #3F3F53;
+
+}
+.conteudoform input:focus{
+    border-color: #8547AA;
+
+}
+.conteudoform input[type="submit"]{
+    box-sizing: content-box;
+    font-size: large    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-color: #3F3F53;
+    background-color: #3F3F53;
+    box-shadow: unset;
+    
+}
+.conteudoform input[type="submit"]:hover{
+    color: #8547AA;
+    border-color:white;
+    background-color: white;
+
+}
+
+.conteudologin img{
+    width: 50%;
+}
+
+
