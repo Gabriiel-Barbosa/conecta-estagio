@@ -1,3 +1,4 @@
+/* Efetuar Login */
 .conteudologin{
     display: flex;
     flex-direction: row;
@@ -5,6 +6,7 @@
     align-items: center;  
 
 }
+
 .conteudoform{
     display: flex;
     flex-direction: column;
@@ -14,6 +16,7 @@
     color: #8547AA;
     margin-right: 35px;
 }
+
 .conteudoform input{
     outline: unset;
     padding: 10px;
@@ -22,11 +25,13 @@
     border-color: #3F3F53;
 
 }
+
 .conteudoform input:focus{
     border-color: #8547AA;
 
 }
-.conteudoform input[type="submit"]{
+
+.conteudoform, input[type="submit"]{
     box-sizing: content-box;
     font-size: large    ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,12 +41,21 @@
     border-color: #3F3F53;
     background-color: #3F3F53;
     box-shadow: unset;
+    margin-bottom: 10px;
     
 }
-.conteudoform input[type="submit"]:hover{
+
+.conteudoform, input[type="submit"]:hover{
     color: #8547AA;
     border-color:white;
     background-color: white;
+
+}
+
+.resetsenha{
+    display: flex;
+    margin: 20px;
+    text-align: center;
 
 }
 
@@ -49,4 +63,38 @@
     width: 50%;
 }
 
+/*Reset de Senha*/
 
+.formresetsenha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.senhafieldset{
+    border: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.senhafieldset label{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8547AA;
+
+}
+.senhafieldset input{
+    outline: unset;
+    font-size: medium;
+    width: 200%;
+    height: 25px;
+    border-radius: 20px;
+    border-color: #3F3F53;
+    margin-top: 10px;
+
+}
+.senhafieldset input:focus{
+    border-color:#8547AA;
+}
