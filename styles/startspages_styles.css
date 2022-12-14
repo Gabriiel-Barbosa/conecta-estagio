@@ -52,10 +52,14 @@
 
 }
 
-.resetsenha{
+.links_index{
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #8547AA;
+    align-items: center;
     display: flex;
-    margin: 20px;
-    text-align: center;
+    margin: 10px;
+
 
 }
 
