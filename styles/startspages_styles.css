@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center;
+     
 
 }
 
@@ -17,6 +18,11 @@
     margin-right: 35px;
 }
 
+.incialtitulo{
+    font-size: larger;
+    align-content: flex-start;
+    margin-top: 20px;
+}
 .conteudoform input{
     outline: unset;
     padding: 10px;
@@ -67,6 +73,20 @@
     width: 50%;
 }
 
+
+.selecaoform{
+    box-sizing: content-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8547AA;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    border-color: #3F3F53;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%; 
+}
 /*Reset de Senha*/
 
 .formresetsenha{
