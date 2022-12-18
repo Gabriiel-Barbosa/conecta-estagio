@@ -16,12 +16,20 @@
             <form action="">
                 <fieldset class="conteudoform">
                     <legend class="incialtitulo">Criar Conta</legend>
+                    <label for="Name">Nome</label>
+                    <input type="text" id="email" name="Name" required><br>
+                    
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="E-mail"><br>
+                    <input type="email" id="email" name="E-mail" required><br>
+
                     <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="Senha"><br>
+                    <input type="password" id="senha" name="Senha" 
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])(?:([0-9a-zA-Z$*&@#])(?!\1)){8,26}$" required><br>
+
                     <label for="confirmarSenha">Confirmar Senha</label>
-                    <input type="password" id="confirmarSenha" name="confirmarSenha"><br>
+                    <input type="password" id="confirmarSenha" name="confirmarSenha"
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])(?:([0-9a-zA-Z$*&@#])(?!\1)){8,26}$" required><br>
+                    
                     <label for="CPF">CPF</label>
                     <input type="number" id="CPF" name="CPF"><br>
                  
