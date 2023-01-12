@@ -6,29 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="styles/startspages_styles.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
 </head>
 
 <body>
-    <main>
-        <section class="conteudologin">
-            <img src="assets/conecta_estagio.svg" alt="Logo da Empresa">
-            <form action="">
-                <fieldset class="conteudoform">
-                    <legend class="incialtitulo" >Login</legend>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="E-mail"><br>
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="Senha"><br>
+    <main class="conteudo">
+        <section class="banner">
+            <img class="banner-1" src="assets/img/conecta_estagio.svg" alt="Logo do Site Conecta Estágio">
+        </section>
+
+        <section class="formulario">          
+            <form action="login">
+                <fieldset class="login_formulario">
+                    <legend class="login__formulario-titulo" >LOGIN</legend>
+                    <label class="login_formulario-label" for="email">E-mail <br></label>
+                    <input class="login_formulario-input" type="email" id="#" name="E-mail"><br>
+                    <label class="login_formulario-label" for="senha">Senha <br></label>
+                    <input class="login_formulario-input" type="password" id="senha" name="Senha"><br>
                    
-                    <input type="submit" value="LOGIN">
-                    
-                    
+                    <input class="login_formulario-submit" type="submit" value="LOGIN">
+                                       
                  
             </form>
-            <div>
-                <a class="links_index" href="view/reset_password.html">Esqueceu a senha?</a>
-                <a class="links_index" href="view/new_account.html">Criar Conta</a>
+            <div class="links__login">
+                <a class="links__login--alt" href="#">Esqueceu a senha?</a>
+                <a class="links__login--alt" href="#">Criar Conta</a>
 
             </div>
         </section>
