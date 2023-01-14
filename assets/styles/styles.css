@@ -23,9 +23,10 @@ body{
 }
 
 /*Formulário*/
-.formulario{
+.login{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 .login__formulario-titulo{
@@ -82,4 +83,17 @@ body{
 }
 .links__login--alt:hover{
     color:var(--roxo-basico);
+}
+
+/*Castro de Usuário*/
+
+.formulario__cadastro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario__cadastro--coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
